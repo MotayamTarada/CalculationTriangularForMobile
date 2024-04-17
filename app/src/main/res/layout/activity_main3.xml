@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Calculate Triangular Perimeter "
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/side1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#EAD70C"
+        android:ems="10"
+        android:hint="Side1"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/side2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFEA00"
+        android:ems="10"
+        android:hint="Side2"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/side3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFEA00"
+        android:ems="10"
+        android:hint="Side3"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btncal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#775B00"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/result"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#EDDCA1"
+        android:backgroundTint="#6C5A1D"
+        android:textSize="34sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="5dp"
+        android:background="#FFEA00"
+        android:backgroundTint="#FFEA00"
+        android:text="perimeter = side1 + side2 + side3"
+        android:textSize="28dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

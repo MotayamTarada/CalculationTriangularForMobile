@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/icwelcome"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:fontFamily="cursive"
+        android:text="Welcome "
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="To Calculation Triangular Area AND Perimeter"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#88986C11"
+        android:fontFamily="sans-serif-black"
+        android:keyboardNavigationCluster="false"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="30dp"
+        android:background="#EDEDED"
+        android:backgroundTint="#6BAE9235"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="An application that calculates the area and perimeter of a triangle"
+        android:textSize="20sp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
+
